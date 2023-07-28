@@ -7,6 +7,7 @@ public class SeleniumJavaPractice {
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
 
+        driver.manage().window().maximize();
         driver.get("https://demoqa.com/");
         Thread.sleep(4000);
 
