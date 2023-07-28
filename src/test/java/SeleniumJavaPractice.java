@@ -8,8 +8,8 @@ public class SeleniumJavaPractice {
         WebDriver driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
-        driver.get("https://demoqa.com/");
-        Thread.sleep(4000);
+        driver.get("https://parabank.parasoft.com");
+        Thread.sleep(2000);
 
         driver.quit();
     }
