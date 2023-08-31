@@ -4,9 +4,6 @@
     <test verbose="2" preserve-order="true" name="D:/SeleniumPractice/SeleniumJavaPractice">
         <classes>
             <class name="TestNGTest.TestNGTest">
-                <methods>
-                    <include name="VerifyLoginPainIsAvailable"/>
-                </methods>
             </class>
         </classes>
     </test>
